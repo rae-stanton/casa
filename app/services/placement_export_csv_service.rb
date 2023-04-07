@@ -18,7 +18,6 @@ class PlacementExportCsvService
         placements.decorate.each do |placements|
           csv << full_data(placements).values
         end
-      end
     end
   end
 
