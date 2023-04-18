@@ -26,7 +26,7 @@ class PlacementExportCsvService
   def full_data(placement = nil)
     {
       casa_org: placement&.id,
-      casa_case_number: placement&.casa_case&.case_number,
+      #casa_case_number: placement&.casa_case&.case_number,
       placement_type_id: placement&.placement_type_id,
       placement_started_at: placement&.placement_started_at,
       created_at: placement&.created_at,
